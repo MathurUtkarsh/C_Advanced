@@ -5,7 +5,7 @@ void main ()
     char c;  
     int choice,dummy;    
     do{  
-    printf("\n1. Print Hello\n2. Print Javatpoint\n3. Exit\n");  
+    printf("\n1. Print Hello\n2. Print Hi\n3. Exit\n");  
     scanf("%d",&choice);  
     switch(choice)  
     {  
@@ -13,7 +13,7 @@ void main ()
         printf("Hello");   
         break;  
         case 2:    
-        printf("Javatpoint");  
+        printf("Hi");  
         break;  
         case 3:  
         exit(0);   
